@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Etusivu extends Component {
     render() {
         return (
-            <div>
-                
+            <div className='etusivu'>
+                Tämä on etusivu.
             </div>
         );
     }
