@@ -28,7 +28,6 @@ class Kysymyssivu extends Component {
     render() {
         return (
             <div>
-                Tähän tulee dataa joskus
                 <Kysymysdata kysymysJson = {this.state.kysymysdata}/>
             </div>
         );

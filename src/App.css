@@ -1,5 +1,5 @@
 .Juti {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -54,8 +54,9 @@ nav ul:hover {
   color: orange;
 }
 
-.testi:hover {
-  color: orange;
+ul
+{
+  list-style-type: none;
 }
 
 nav ul li {

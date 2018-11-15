@@ -5,8 +5,8 @@ class Kysymysdata extends Component {
     render() {
 
         var kysymysoliot = this.props.kysymysJson.map(function(kysymysmappi){
-            return <Kysymys key={kysymysmappi.id} kysymyspropsi={kysymysmappi.kysymys}/>
-        })
+            return <Kysymys key={kysymysmappi.id} kysymyspropsi={kysymysmappi.kysymys} vastausvaihtoehdotpropsi={kysymysmappi.vastausvaihtoehdot}/>
+        });
 
         return (
             <div>

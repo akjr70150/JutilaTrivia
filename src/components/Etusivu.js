@@ -4,7 +4,7 @@ class Etusivu extends Component {
     render() {
         return (
             <div className='etusivu'>
-                Tämä on etusivu.
+                Tervetuloa Juti-Triviaan!
             </div>
         );
     }
