@@ -1,4 +1,4 @@
-.App {
+.Juti {
   text-align: center;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: slategrey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,9 +18,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -29,4 +26,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+nav ul:hover {
+  color: orange;
+}
+
+.testi:hover {
+  color: orange;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+.current:hover {
+  color: orange;
 }
