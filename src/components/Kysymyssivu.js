@@ -7,7 +7,7 @@ class Kysymyssivu extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {kysymysdata: []};
+        this.state = {};
     }
     componentDidMount () {
         this.haekaikki();
@@ -21,14 +21,15 @@ class Kysymyssivu extends Component {
             alert("virhe");
         } else {
             this.setState({kysymysdata: haettudata});
-            console.log(this.state.kysymysdata);
+            // console.log(this.state.kysymysdata);
         }
     }
 
     render() {
         return (
-            <div>
-                <Kysymysdata kysymysJson = {this.state.kysymysdata}/>
+            <div>{ this.state.kysymysdata &&
+            <Kysymysdata kysymysJson = {this.state.kysymysdata}/>
+            }
             </div>
         );
     }

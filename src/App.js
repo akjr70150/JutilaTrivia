@@ -7,6 +7,7 @@ import Etusivu from './components/Etusivu';
 import Kysymyssivu from './components/Kysymyssivu';
 import Navigaatio from './components/Navigaatio';
 import SivuaEiLoytynyt from './components/SivuaEiLoytynyt';
+import Tulossivu from './components/Tulossivu';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Switch>
                 <Route exact path='/' component={Etusivu}></Route>
                 <Route exact path='/kysymykset' component={Kysymyssivu}></Route>
+                <Route exact path='/tulokset' component={Tulossivu}></Route>
                 <Route component={SivuaEiLoytynyt} />
             </Switch>
         </header>
